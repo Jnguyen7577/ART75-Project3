@@ -1,0 +1,167 @@
+
+body {
+  width: auto;
+  background-color: #191919;
+  height:1000px;
+  margin: auto;
+}
+
+.container {
+  width: 80%;
+  
+  margin: auto;
+  
+}
+
+.containerB {
+  width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* Header */
+.header .slider {
+  background-color: #eee;
+  height: 600px;
+
+  
+  background-image: url(ghostpath.png);
+  background-size: cover;
+}
+
+.header .slider .intro {
+  padding-top: 250px;
+  text-align: center;
+  color: #fff;
+}
+
+.header .slider .intro h2 {
+  font-family: "Quicksand", Arial, sans-serif;
+  margin: 0 auto;
+  font-size: 50px;
+  text-shadow: 5px 5px 5px #252f31;
+
+}
+
+.header .slider .intro p {
+  font-family: "Quicksand", Arial, sans-serif;
+  color: #fff;
+  margin: 0 auto;
+  font-size: 30px;
+  text-shadow: 5px 5px 5px #252f31;
+  
+  padding: 5px 0;
+}
+
+.header .slider .intro button {
+  background: none;
+  color: #fff;
+ 
+  margin-top: 40px;
+  font-size: 20px;
+  border: 2px solid #fff;
+  font-weight: bold;
+  padding: 10px 30px;
+}
+
+
+
+/* location */
+.location {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.location h2{
+  font-family: "Quicksand", Arial, sans-serif;
+  padding: 20px 0 ;
+  color: #fff;
+}
+.location .our-work {
+  overflow: hidden;
+}
+
+.location .our-work>div {
+  float: left;
+  width: 33.333333%;
+  margin-bottom: 10px;
+}
+
+.location .our-work>div img {
+  width: 92%;
+  margin: 10px;
+  padding: 3px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0px 10px 10px #ccc;
+}
+
+/*location */
+
+/* Comment */
+.comment {
+  background-color: #252f31;
+  overflow: hidden;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.comment h2 {
+  font-family: "Quicksand", Arial, sans-serif;
+  color: #fff;
+  margin-left: 40px;
+  text-align:center;
+}
+
+.comment .form{
+  font-family: "Quicksand", Arial, sans-serif;
+  margin-top: 10px;
+  margin-left: 27%;
+}
+.comment .form label{
+  display: block;
+  color: #d1d6da;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.comment .form textarea{
+  color: #fff;
+  background-color:#4b5557;
+  border: 0;
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+/* Comment */
+
+.WorkText h2 {
+  font-family: "Quicksand", Arial, sans-serif;
+  margin: 20px 0 20px 40px;
+  color: #555;
+  text-align: center;
+}
+
+.WorkText p {
+  font-family: "Quicksand", Arial, sans-serif;
+  margin: 20px 0 20px 40px;
+  color: #555;
+  margin-left: 300px; 
+  margin-right: 300px;
+}
+
+
+.Video iframe {
+   margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+}
+
+
